@@ -20,7 +20,7 @@ bot = commands.Bot(command_prefix='+', intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'Aqui é o Dwight Schrute da Dunder Mifflin, com quem falo?')
+    print(f'Aqui é o Dwight Schrute da Dunder Mifflin. Com quem falo?')
 
 @bot.command(name='ping')
 async def ping(ctx):
