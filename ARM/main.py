@@ -53,6 +53,8 @@ async def help(ctx):
     help_message = 'Comandos disponíveis:\n' + '\n +'.join(commands_list)
     await ctx.send(help_message)
 
+### FAZER IMPLEMENTAÇÃO DO PREÇO DO BITCOIN ###
+
 # Rodar o bot
 if __name__ == "__main__":
     bot.run(DISCORDTOKEN)
