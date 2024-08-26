@@ -1,3 +1,3 @@
 # Discord-Bot
-Bot do discord nomeado Assistant Regional Manager.
+Bot do discord.
 Uma tentativa de fazer pesquisas no ChatGPT via chat do Discord.
