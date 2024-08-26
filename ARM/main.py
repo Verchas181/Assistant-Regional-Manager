@@ -47,6 +47,12 @@ async def on_message(message):
     # Processa outros comandos
     await bot.process_commands(message)
 
+@bot.command(name='help')
+async def help(ctx):
+    commands_list = [command.name for command in bot.commands]
+    help_message = 'Comandos disponíveis:\n' + '\n +'.join(commands_list)
+    await ctx.send(help_message)
+
 # Rodar o bot
 if __name__ == "__main__":
     bot.run(DISCORDTOKEN)
