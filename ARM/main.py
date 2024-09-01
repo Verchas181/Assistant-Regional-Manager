@@ -8,6 +8,7 @@ import openai
 load_dotenv()
 DISCORDTOKEN = os.getenv('DISCORDTOKEN')
 OPENAITOKEN = os.getenv('OPENAIAPIKEY')
+COINMARKETTOKEN = os.getenv('COINMARKETTOKEN')
 
 # Configurar a API do OpenAI
 openai.api_key = OPENAITOKEN
